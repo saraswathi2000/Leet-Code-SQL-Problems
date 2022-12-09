@@ -20,8 +20,7 @@ it has a population of at least twenty-five million (i.e., 25000000).
 Write an SQL query to report the name, population, and area of the big countries.
 
 Return the result table in any order.
-
-The query result format is in the following example.*/
+*/
 
 SELECT name,population,area 
 FROM World 
