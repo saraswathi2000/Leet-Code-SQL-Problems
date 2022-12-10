@@ -18,6 +18,6 @@ Return the result table in any order.*/
 
 
 SELECT patient_id,patient_name,conditions 
-from Patients 
-where conditions like '% DIAB1%' OR
+FROM Patients 
+WHERE conditions LIKE '% DIAB1%' OR
 CONDITIONS LIKE 'DIAB1%';
