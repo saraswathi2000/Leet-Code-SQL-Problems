@@ -17,9 +17,9 @@ The sold products names for each date should be sorted lexicographically.
 Return the result table ordered by sell_date.*/
 
 
-SELECT sell_date,count(DISTINCT product) as num_sold, 
+SELECT sell_date,COUNT(DISTINCT product) AS num_sold, 
 GROUP_CONCAT(DISTINCT product SEPARATOR',') AS products
 FROM Activities
-group by sell_date
-order by sell_date;
+GROUP BY sell_date
+ORDER BY sell_date;
 
