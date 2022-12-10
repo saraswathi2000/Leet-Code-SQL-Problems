@@ -14,3 +14,7 @@ Write an SQL query to fix the names so that only the first character is uppercas
 
 Return the result table ordered by user_id. */
 
+SELECT user_id, concat(upper(left(`name`,1)),lower(substring(`name`,2))) AS name 
+FROM Users 
+ORDER BY user_id;
+
