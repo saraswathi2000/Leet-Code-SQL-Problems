@@ -9,7 +9,7 @@ Table : World
 | population  | int     |
 | gdp         | int     |
 +-------------+---------+
-name is the primary key column for this table.
+name is the primary key column for the above table.
 Each row of this table gives information about the name of a country, the continent to which it belongs, its area, the population, and its GDP value.
  
 A country is big if:
